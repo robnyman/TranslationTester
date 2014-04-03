@@ -1,0 +1,34 @@
+{
+  "version": "1",
+  "name": "Translation Tester",
+  "launch_path": "/index.html",
+  "description": "This is a testing app for Firefox OS translations",
+  "icons": {
+    "16": "/images/logo16.png",
+    "32": "/images/logo32.png",
+    "48": "/images/logo48.png",
+    "60": "/images/logo60.png",
+    "64": "/images/logo64.png",
+    "90": "/images/logo90.png",
+    "120": "/images/logo120.png",
+    "128": "/images/logo128.png"
+  },
+  "developer": {
+    "name": "Robert Nyman",
+    "url": "http://robertnyman.com"
+  },
+  "installs_allowed_from": [
+    "*"
+  ],
+  "default_locale": "en",
+  "locales": {
+    "en-US": {
+      "name": "Translation Tester",
+      "description": "This is a testing app for Firefox OS translations"
+    },
+    "es": {
+      "name": "Tester Traducción",
+      "description": "Tester Traducción bueno"
+    }
+  }
+}
