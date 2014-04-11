@@ -14,10 +14,11 @@ Optionally, you can set up your project for localization at [Transifex](https://
 
 If you want to add a new language, here's how to do it:
 
-1. Create a file in the `locales` directory, e.g. `en-US`
+1. Create a directory in the `locales` directory, e.g. `en-US`
 2. Create two files in your locale directory: `app.properties` and `manifest.properties`. `app.properties` will have all the translations for your app's content, `manifest.properties` will have the translation for the name and description of your app
 3. Open `locales.ini` and import your translation, e.g: `[en-US] @import url(en-US/app.properties)`
-5. Open `manifest.webapp` and add your language in the locales directive: `"en-US": {
+4. Open `manifest.webapp` and add your language in the locales directive:
+	`"en-US": {
       "name": "Translation Tester",
       "description": "This is a testing app for Firefox OS translations"
     }`
