@@ -1,17 +1,15 @@
 {
   "version": "1",
   "name": "Translation Tester",
-  "launch_path": "/Translation-Tester/index.html",
+  "launch_path": "/dev/TranslationTester/index.html",
   "description": "This is a testing app for Firefox OS translations",
   "icons": {
-    "16": "/Translation-Tester/images/logo16.png",
-    "32": "/Translation-Tester/images/logo32.png",
-    "48": "/Translation-Tester/images/logo48.png",
-    "60": "/Translation-Tester/images/logo60.png",
-    "64": "/Translation-Tester/images/logo64.png",
-    "90": "/Translation-Tester/images/logo90.png",
-    "120": "/Translation-Tester/images/logo120.png",
-    "128": "/Translation-Tester/images/logo128.png"
+    "32": "/dev/TranslationTester/images/logo32.png",
+    "60": "/dev/TranslationTester/images/logo60.png",
+    "90": "/dev/TranslationTester/images/logo90.png",
+    "120": "/dev/TranslationTester/images/logo120.png",
+    "128": "/dev/TranslationTester/images/logo128.png",
+    "256": "/dev/TranslationTester/images/logo256.png"
   },
   "developer": {
     "name": "Robert Nyman",
@@ -29,6 +27,10 @@
     "es": {
       "name": "Tester Traducción",
       "description": "Tester Traducción bueno"
+    },
+    "sv": {
+      "name": "Translation Tester",
+      "description": "Det här är en test-app för Firefox OS översättningar"
     }
   }
 }
