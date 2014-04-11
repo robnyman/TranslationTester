@@ -19,10 +19,12 @@ If you want to add a new language, here's how to do it:
 3. Open `locales.ini` and import your translation, e.g: `[en-US] @import url(en-US/app.properties)`
 4. Open `manifest.webapp` and add your language in the locales directive:
 	
+	```
 	"en-US": {
 		"name": "Translation Tester",
 		"description": "This is a testing app for Firefox OS translations"
 	}
+	```
     
 ## Adding new text to new elements
 
