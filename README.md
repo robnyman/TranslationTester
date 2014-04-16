@@ -6,7 +6,7 @@ Optionally, you can set up your project for localization at [Transifex](https://
 
 ## Try it out
 
-If you go to [http://robnyman.github.io/TranslationTester/](http://robnyman.github.io/TranslationTester/) in your web browser or add it as an app in the [App Manager in the Firefox Developer Tools](https://developer.mozilla.org/en-US/Firefox_OS/Using_the_App_Manager) (`Tools &gt; Web Developer &gt; App Manager`in Firefox) you can test it out right away.
+If you go to [http://robnyman.github.io/TranslationTester/](http://robnyman.github.io/TranslationTester/) in your web browser or add it as an app in the [App Manager in the Firefox Developer Tools](https://developer.mozilla.org/en-US/Firefox_OS/Using_the_App_Manager) (`Tools > Web Developer > App Manager`in Firefox) you can test it out right away.
 
 If you plan on testing in the App Manager, these are your two options:
 
@@ -17,8 +17,8 @@ If you plan on testing in the App Manager, these are your two options:
 
 To view TranslationTester with a different locale, change the language in Firefox/App Manager:
 
-- Firefox: Choose language under Preferences &gt; Content &gt; Languages. More information in [Set content language in Firefox](https://support.mozilla.org/en-US/kb/settings-fonts-languages-pop-ups-javascript)
-- App Manager/Firefox OS: Go to Settings &gt; Language. More information in [Change The Default Language on Firefox OS](https://support.mozilla.org/en-US/kb/change-default-language-firefox-os?esab=a&s=language&r=0&as=s)
+- Firefox: Choose language under `Preferences > Content > Languages`. More information in [Set content language in Firefox](https://support.mozilla.org/en-US/kb/settings-fonts-languages-pop-ups-javascript)
+- App Manager/Firefox OS: Go to `Settings > Language`. More information in [Change The Default Language on Firefox OS](https://support.mozilla.org/en-US/kb/change-default-language-firefox-os?esab=a&s=language&r=0&as=s)
 
 ## How it works
 
