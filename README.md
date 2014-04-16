@@ -1,8 +1,24 @@
 # TranslationTester
 
-To test translations for Firefox OS apps and to have a blueprint for your own app with translation support. Feel free to fork this repository and then build up your app supporting multiple languages.
+This app is to test translations for Firefox OS apps and to have a blueprint for your own app with translation support. Feel free to fork this repository and then build up your app supporting multiple languages.
 
 Optionally, you can set up your project for localization at [Transifex](https://www.transifex.com/) to accept and import translations from other people.
+
+## Try it out
+
+If you go to [http://robnyman.github.io/TranslationTester/](http://robnyman.github.io/TranslationTester/) in your web browser or add it as an app in the [App Manager in the Firefox Developer Tools](https://developer.mozilla.org/en-US/Firefox_OS/Using_the_App_Manager) (`Tools &gt; Web Developer &gt; App Manager`in Firefox) you can test it out right away.
+
+If you plan on testing in the App Manager, these are your two options:
+
+- Clone or fork this repository, choose `Add Packaged App`and point to the directory
+- Choose `Add Hosted App` and point your App Manager to this URL: [http://robnyman.github.io/TranslationTester/manifest-hosted.webapp](http://robnyman.github.io/TranslationTester/manifest-hosted.webapp)
+
+### How to view different locales
+
+To view TranslationTester with a different locale, change the language in Firefox/App Manager:
+
+- Firefox: Choose language under Preferences &gt; Content &gt; Languages. More information in [Set content language in Firefox](https://support.mozilla.org/en-US/kb/settings-fonts-languages-pop-ups-javascript)
+- App Manager/Firefox OS: Go to Settings &gt; Language. More information in [Change The Default Language on Firefox OS](https://support.mozilla.org/en-US/kb/change-default-language-firefox-os?esab=a&s=language&r=0&as=s)
 
 ## How it works
 
@@ -31,7 +47,7 @@ If you want to add a new language, here's how to do it:
 If you want to add a new text/translation in the content file:
 
 1. Add the `data-l10n-id` attribute to the desired element: `<p data-l10n-id="winter-for-real">Winter for real</p>`
-2. The value chosen for the `data-l10n-id` attribute needs to correspond to the same value in the `app.properties` file, e.g: `winter-for-real = Winter for real`
+2. The value chosen for the `data-l10n-id` attribute needs to correspond to the same value in the `app.properties` file for each language, e.g: `winter-for-real = Winter for real`
 
 ## Credit for translators
 
