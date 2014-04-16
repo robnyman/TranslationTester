@@ -91,6 +91,19 @@ footer {
     bottom: 0;
 }
 
+.translation-credits {
+  display: inline-block;
+  color: #fff;
+  line-height: 4rem;
+  vertical-align: middle;
+  margin-left: 2rem;
+}
+
+.translation-credits i {
+  display: inline-block;
+  vertical-align: middle;
+}
+
 [role="toolbar"] li button.update {
     background-image: url("../images/toolbars/icons/update.png");
 }
