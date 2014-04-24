@@ -1,6 +1,6 @@
 {
   "version": "1",
-  "name": "Translation Tester",
+  "name": "TranslationTester",
   "launch_path": "/index.html",
   "description": "This is a testing app for Firefox OS translations",
   "icons": {
@@ -21,7 +21,7 @@
   "default_locale": "en",
   "locales": {
     "en-US": {
-      "name": "Translation Tester",
+      "name": "TranslationTester",
       "description": "This is a testing app for Firefox OS translations"
     },
     "es": {
@@ -29,7 +29,7 @@
       "description": "Tester Traducción bueno"
     },
     "sv": {
-      "name": "Translation Tester",
+      "name": "TranslationTester",
       "description": "Det här är en test-app för Firefox OS översättningar"
     }
   }

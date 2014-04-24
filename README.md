@@ -10,7 +10,7 @@ If you go to [http://robnyman.github.io/TranslationTester/](http://robnyman.gith
 
 If you plan on testing in the App Manager, these are your two options:
 
-- Clone or fork this repository, choose `Add Packaged App`and point to the directory
+- Clone or fork this repository, choose `Add Packaged App` and point to the directory
 - Choose `Add Hosted App` and point your App Manager to this URL: [http://robnyman.github.io/TranslationTester/manifest-hosted.webapp](http://robnyman.github.io/TranslationTester/manifest-hosted.webapp)
 
 ### How to view different locales
@@ -37,7 +37,7 @@ If you want to add a new language, here's how to do it:
 	
 	```
 	"en-US": {
-		"name": "Translation Tester",
+		"name": "TranslationTester",
 		"description": "This is a testing app for Firefox OS translations"
 	}
 	```
