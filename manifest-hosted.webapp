@@ -21,8 +21,8 @@
   "default_locale": "en",
   "locales": {
     "es": {
-      "name": "Tester Traducción",
-      "description": "Tester Traducción bueno"
+      "name": "Probador de traducción",
+      "description": "Para ayudar con la localización"
     },
     "sv": {
       "name": "TranslationTester",
