@@ -15,8 +15,9 @@ If you plan on testing in the App Manager, these are your two options:
 
 ### How to view different locales
 
-To view TranslationTester with a different locale, change the language in Firefox/App Manager:
+To view TranslationTester with a different locale, you can either manually trigger it via JavaScript or change the language in Firefox/App Manager:
 
+- JavaScript: Change the language code in the `js/base.js file`, see the `document.webL10n.setLanguage("es");` method
 - Firefox: Choose language under `Preferences > Content > Languages`. More information in [Set content language in Firefox](https://support.mozilla.org/en-US/kb/settings-fonts-languages-pop-ups-javascript)
 - App Manager/Firefox OS: Go to `Settings > Language`. More information in [Change The Default Language on Firefox OS](https://support.mozilla.org/en-US/kb/change-default-language-firefox-os?esab=a&s=language&r=0&as=s)
 
