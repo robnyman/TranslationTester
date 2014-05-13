@@ -24,6 +24,10 @@
       "name": "Probador de traducción",
       "description": "Para ayudar con la localización"
     },
+    "fr": {
+      "name": "Testeur de traduction",
+      "description": "Une aide à la localisation pour Firefox OS"
+    },
     "sv": {
       "name": "TranslationTester",
       "description": "Det här är en test-app för Firefox OS översättningar"
