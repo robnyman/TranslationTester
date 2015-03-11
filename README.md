@@ -52,7 +52,7 @@ If you want to add a new text/translation in the content file:
 
 ## Credit for translators
 
-If you have translations offered by people not on the project - for instance, through the [Transifex](https://www.transifex.com/) service - it's highly recommended that you list their names and give them appropriate credits. The suggestion, and implemented in this example, is to give an element an attribute, `data-l10n-id="translation-credits"` in which the names will be retrieved from respective àpp.properties` file for the specific language being shown.
+If you have translations offered by people not on the project - for instance, through the [Transifex](https://www.transifex.com/) service - it's highly recommended that you list their names and give them appropriate credits. The suggestion, and implemented in this example, is to give an element an attribute, `data-l10n-id="translation-credits"` in which the names will be retrieved from respective `app.properties` file for the specific language being shown.
 
 
 ## Acknowledgements
